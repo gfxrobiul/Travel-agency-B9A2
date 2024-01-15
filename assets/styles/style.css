@@ -122,8 +122,46 @@ button {
     outline: none;
     border: none;
     margin: 10px;
+    cursor: pointer;
 
 }
+
+/* OUR POPILAR TOUR SECTION START */
+.popular-tour {
+    max-width: 1160px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.popular-tour-container {
+    display: flex;
+    gap: 3rem;
+    margin-top: 100px;
+}
+.popular-tour-left{
+    width:50%;
+}
+.popular-tour-right{
+    width:50%;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+}
+
+.section-description ,li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size:1rem;
+    line-height: 26px;
+}
+img{
+    width:100%;
+}
+
+
 
 
 
@@ -133,7 +171,7 @@ button {
     nav {
         flex-direction: column;
     }
-
+    
 }
 
 /* 
