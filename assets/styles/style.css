@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/*COMMON SHARED STYLE */
+
+.span-color {
+    color: #FF5400;
+}
+
+.description-color {
+    color: #424247;
+}
+
+
+/* HEADER SECTION STYLE START */
+.header {
+    max-width: 1160px;
+    margin: 50px auto 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.site-logo h1 {
+    margin-left: 15px;
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* BANNER STYLE START */
+.banner {
+    width: 1160px;
+    height: 500px;
+    border-radius: 1rem;
+    margin-top: 50px auto 0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/assets/images/Group\ 13\ \(1\)\ \(1\).png);
+}
+
+.banner-content {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.description {
+    margin-top: 1.25rem;
+    color: #FFF;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 4rem;
+}
+
+.form {
+    width: 70%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    width: 175px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+button {
+    width: 175px;
+    color: #FFF;
+    background: #FF5400;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 10px;
+
+}
+
+
+
+/* RESPONSIV MEDIA QUERY */
+/* RESPONSIVE FOR SMALL DEVICE OR PHONE DEVICES */
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+
+}
+
+/* 
+    .banner {
+        padding:20px;
+        width: 335px;
+    }
+    .banner-content{
+       padding-top:5px;
+    }
+    .form{
+        width: 287px;
+    }
+    .banner-title{
+        font-size: 1rem;
+    } */
