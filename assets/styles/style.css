@@ -168,6 +168,18 @@ li {
     width: 100%;
     height: 620px;
 }
+/* OUR DESTINATION SECTION STYLE START */
+
+.our-destination1{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* .our-destination-container{
+    max-width: 1160px;
+    margin:0 auto;
+} */
+
+
 
 /* WHY CHOOSE US SECTION START */
 .choose-us-section {
@@ -247,12 +259,67 @@ li {
     font-size: 1rem;
     font-weight: 700;
     line-height: 26px;
-   
+
 }
 
 .pp-video iframe {
     margin-top: 1rem;
     border-radius: 1rem;
+}
+
+/* NEWS LETTER SECTION START */
+.news-letter {
+    max-width: 1160px;
+    margin: 100px auto 0;
+}
+
+.news-letter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25em;
+}
+
+.news-ltr-lt {
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+    padding: 40px;
+}
+
+.news-ltr-lt .inner-title {
+    margin-bottom: 1rem;
+}
+
+.news-ltr-form {
+    margin-top: 1.25rem;
+}
+
+.news-ltr-form input {
+    width: 380px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+
+.news-ltr-form .primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+
+
+
+/* FOOTER SECTION */
+.footer {
+    margin: 100px auto 0;
+    background-color: #00fff2;
+    height: 100vh;
+    text-align: center;
+
 }
 
 
