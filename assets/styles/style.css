@@ -74,7 +74,7 @@ nav ul li a {
     height: 500px;
     border-radius: 1rem;
     margin-top: 50px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('/assets/images/Group\ 13\ \(1\)\ \(1\).png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/assets/images/Group\ 13\ \(1\)\ \(1\).png');
 }
 
 .banner-content {
@@ -251,8 +251,6 @@ li {
 
 }
 
-
-
 /* WHY CHOOSE US SECTION START */
 .choose-us-section {
     max-width: 1160px;
@@ -389,8 +387,8 @@ li {
 .footer {
     margin: 100px auto 0;
     background: rgba(19, 19, 24, 0.05);
-    height:500px;
-    
+    height: 500px;
+
 }
 
 .footer-container {
@@ -418,8 +416,9 @@ li {
     text-align: center;
     margin: 50px auto;
 }
-.copyright{
-    margin:100px;
+
+.copyright {
+    margin: 100px;
 }
 
 .copyright-text {
@@ -432,28 +431,44 @@ li {
 /* RESPONSIV MEDIA QUERY */
 /* RESPONSIVE FOR SMALL DEVICE OR PHONE DEVICES */
 @media screen and (max-width:600px) {
-    nav {
+    nav ,
+    .popular-tour-container 
+
+    {
         flex-direction: column;
-        grid-template-columns: repeat(1, 1fr);
+    }
+    .popular-tour-container {
         text-align: center;
-        margin: 0 auto;
-        width: 100%;
+        padding:20px;
+    }
+    .popular-tour-left ,
+    .popular-tour-right
+    {
+        width:100%;
     }
 
     .banner {
-        padding: 20px;
+        width:600px;
     }
 
     .banner-content {
         padding-top: 5px;
     }
+    .banner-content .description{
+        width: 304px;
+        font-size: 14px;
+    }
 
     .form {
         width: 287px;
     }
+    .banner-title{
+        font-size:2rem;
+    }
 
-    .banner-title {
-        font-size: 1rem;
+    input {
+        width: 255px;
+        height: 52px;
     }
 
 }
