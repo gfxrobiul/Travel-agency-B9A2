@@ -70,7 +70,7 @@ nav ul li a {
     height: 500px;
     border-radius: 1rem;
     margin-top: 50px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/assets/images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('/assets/images/Group\ 13\ \(1\)\ \(1\).png');
 }
 
 .banner-content {
@@ -170,14 +170,74 @@ li {
 }
 /* OUR DESTINATION SECTION STYLE START */
 
-.our-destination1{
+.our-desti{
     max-width: 1160px;
-    margin: 0 auto;
+    margin:100px auto 0;
+    border:1px solid red;
 }
-/* .our-destination-container{
-    max-width: 1160px;
-    margin:0 auto;
-} */
+.our-desti-container{
+    text-align: center;
+}
+.top-photo {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.grid-text{
+    position: absolute;
+    margin-top:-150px;
+    margin-left:250px;
+    color: #FFF;
+}
+
+.center-photo{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    position: relative;
+
+}
+.grid-text-srilanka{
+    position: absolute;
+    margin-top: -150px;
+    color: #fff;
+    margin-left:150px;
+
+}
+.grid-text-america{
+    position: absolute;
+    margin-top: -150px;
+    color: #fff;
+    margin-left:150px;
+}
+.grid-text-kashmir{
+    position: absolute;
+    margin-top: -150px;
+    color: #fff;
+    margin-left:90px;
+}
+
+.bottom-photo{
+    display: flex;
+    gap: 1rem;
+    margin-top:1rem;
+    position: relative;
+}
+.grid-text-bangladesh{
+    position: absolute;
+    margin-top:-160px;
+    color: #fff;
+    margin-left:160px;
+}
+.grid-text-bandarban{
+    position: absolute;
+    margin-top:-160px;
+    color: #fff;
+    margin-left:260px;
+    
+
+}
 
 
 
@@ -315,11 +375,11 @@ li {
 
 /* FOOTER SECTION */
 .footer {
+    max-width:1440px;
     margin: 100px auto 0;
-    background-color: #00fff2;
+    background: rgba(19, 19, 24, 0.05);
     height: 100vh;
     text-align: center;
-
 }
 
 
