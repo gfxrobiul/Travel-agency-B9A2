@@ -587,7 +587,25 @@ li {
         height: 52px;
     }
 
-    
-    
+    .footer-logo img{
+        font-size: 24px;
+    }
+
+    .footer-logo .footer-text
+    {
+        font-size: 24px;
+        margin-top:10px;
+        
+    }
+  
+    .icon-text{
+        width:400px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .copyright-text{
+        font-size: 14px;
+    }
 
 }
