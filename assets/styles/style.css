@@ -28,10 +28,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 
 }
-
+nav .bars{
+    display: none;
+}
 
 .site-logo {
     display: flex;
@@ -179,6 +180,9 @@ li {
     max-width: 1160px;
     margin: 100px auto 0;
 }
+.our-desti-top{
+    margin-bottom: 50px;
+}
 
 .our-desti-container {
     text-align: center;
@@ -259,6 +263,7 @@ li {
 
 .choose-us-top {
     text-align: center;
+    
 }
 
 .choose-services {
@@ -430,7 +435,6 @@ li {
 /* RESPONSIV MEDIA QUERY */
 /* RESPONSIVE FOR SMALL DEVICE OR PHONE DEVICES */
 @media screen and (max-width:600px) {
-    nav ,
     .popular-tour-container ,
     .top-photo ,
     .center-photo ,
@@ -450,13 +454,72 @@ li {
     {
         width:100%;
     }
-    .our-desti{
+    .our-desti ,
+    .header
+    {
         padding:20px;
+    }
+    .section-title {
+        font-size: 32px;
+       
     }
     .our-destination-photo img{
         width:100%;    
-        
+        height:100%;
     }
+    
+    .grid-text {
+        position: absolute;
+        margin-top: -154px;
+        margin-left: 220px;
+        color: #FFF;
+    }
+
+    .grid-text-srilanka {
+        position: absolute;
+        margin-top: -220px;
+        color: #fff;
+        margin-left: 240px;
+    }
+
+    .grid-text-america {
+        position: absolute;
+        margin-top: -187px;
+        color: #fff;
+        margin-left: 195px;
+    }
+
+    .grid-text-kashmir {
+        position: absolute;
+        margin-top: -270px;
+        color: #fff;
+        margin-left: 240px;
+    }
+    .grid-text-bangladesh {
+        position: absolute;
+        margin-top: -190px;
+        color: #fff;
+        margin-left: 206px;
+    }
+    .grid-text-bandarban {
+        position: absolute;
+        margin-top: -151px;
+        color: #fff;
+        margin-left: 220px;
+    }
+
+
+
+    
+    nav ul{
+        display: none;
+    }
+    nav .bars{
+        display: block;
+        margin-right:20px;
+        cursor: pointer;
+    }
+
 
     .banner {
         width:600px;
@@ -481,5 +544,8 @@ li {
         width: 255px;
         height: 52px;
     }
+
+    
+    
 
 }
