@@ -441,7 +441,8 @@ li {
     .center-photo ,
     .bottom-photo ,
     .choose-services ,
-    .perfect-place-container
+    .perfect-place-container ,
+    .news-letter-container
 
     {
         flex-direction: column;
@@ -539,6 +540,15 @@ li {
     .pp-video iframe {
         width: 550px;
         height:440px;
+    }
+    .news-ltr-form{
+        text-align: center;
+    }
+    
+    .news-ltr-rt img ,
+    .news-ltr-lt
+    {
+        width:550px;
     }
 
 
