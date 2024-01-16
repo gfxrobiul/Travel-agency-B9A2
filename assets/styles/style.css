@@ -21,7 +21,7 @@
 /* HEADER SECTION STYLE START */
 .header {
     max-width: 1160px;
-    margin: 50px auto 0;
+    margin: 50px auto 100px;
 }
 
 nav {
@@ -54,14 +54,14 @@ nav>ul {
 nav ul li {
     list-style: none;
     margin-right: 40px;
+    text-align: center;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #424247;
-    text-align: center;
-    font-size: 1rem;
-    cursor: pointer;
 }
 
 /* BANNER STYLE START */
@@ -69,7 +69,7 @@ nav ul li a {
     width: 1160px;
     height: 500px;
     border-radius: 1rem;
-    margin-top: 50px auto 0;
+    margin-top: 50px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/assets/images/Group\ 13\ \(1\)\ \(1\).png);
 }
 
@@ -131,6 +131,7 @@ button {
     max-width: 1160px;
     height: 100vh;
     margin: 0 auto;
+
 }
 
 .popular-tour-container {
@@ -138,11 +139,13 @@ button {
     gap: 3rem;
     margin-top: 100px;
 }
-.popular-tour-left{
-    width:50%;
+
+.popular-tour-left {
+    width: 50%;
 }
-.popular-tour-right{
-    width:50%;
+
+.popular-tour-right {
+    width: 50%;
 }
 
 .section-title {
@@ -152,17 +155,76 @@ button {
     margin-bottom: 1.25rem;
 }
 
-.section-description ,li {
+.section-description,
+li {
     color: rgba(19, 19, 24, 0.70);
-    font-size:1rem;
+    font-size: 1rem;
     line-height: 26px;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
 }
 
+/* WHY CHOOSE US SECTION START */
+.choose-us-section {
+    max-width: 1160px;
+    margin: 100px auto 0;
+    border: 2px solid red;
 
+}
 
+.choose-us-top {
+    text-align: center;
+}
+
+.choose-services {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+}
+
+.choose-1 {
+    padding: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    gap: 50px;
+
+}
+
+.choose-2 {
+    padding: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-bottom: 24px;
+}
+
+.choose-3 {
+    padding: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+}
+
+.choose-img {
+    width: 64px;
+    height: 64px;
+}
+
+.inner-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 
 
 /* RESPONSIV MEDIA QUERY */
@@ -171,20 +233,22 @@ img{
     nav {
         flex-direction: column;
     }
-    
-}
 
-/* 
     .banner {
-        padding:20px;
-        width: 335px;
+        padding: 20px;
+
     }
-    .banner-content{
-       padding-top:5px;
+
+    .banner-content {
+        padding-top: 5px;
     }
-    .form{
+
+    .form {
         width: 287px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 1rem;
-    } */
+    }
+
+}
