@@ -27,14 +27,18 @@
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
 
 }
+
 
 .site-logo {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 
 .site-logo h1 {
     margin-left: 15px;
@@ -168,74 +172,82 @@ li {
     width: 100%;
     height: 620px;
 }
+
 /* OUR DESTINATION SECTION STYLE START */
 
-.our-desti{
+.our-desti {
     max-width: 1160px;
-    margin:100px auto 0;
-    border:1px solid red;
+    margin: 100px auto 0;
+    border: 1px solid red;
 }
-.our-desti-container{
+
+.our-desti-container {
     text-align: center;
 }
+
 .top-photo {
     display: flex;
     gap: 1rem;
     position: relative;
 }
 
-.grid-text{
+.grid-text {
     position: absolute;
-    margin-top:-150px;
-    margin-left:250px;
+    margin-top: -150px;
+    margin-left: 250px;
     color: #FFF;
 }
 
-.center-photo{
+.center-photo {
     display: flex;
     margin-top: 1rem;
     gap: 1rem;
     position: relative;
 
 }
-.grid-text-srilanka{
+
+.grid-text-srilanka {
     position: absolute;
     margin-top: -150px;
     color: #fff;
-    margin-left:150px;
+    margin-left: 150px;
 
 }
-.grid-text-america{
+
+.grid-text-america {
     position: absolute;
     margin-top: -150px;
     color: #fff;
-    margin-left:150px;
-}
-.grid-text-kashmir{
-    position: absolute;
-    margin-top: -150px;
-    color: #fff;
-    margin-left:90px;
+    margin-left: 150px;
 }
 
-.bottom-photo{
+.grid-text-kashmir {
+    position: absolute;
+    margin-top: -150px;
+    color: #fff;
+    margin-left: 90px;
+}
+
+.bottom-photo {
     display: flex;
     gap: 1rem;
-    margin-top:1rem;
+    margin-top: 1rem;
     position: relative;
 }
-.grid-text-bangladesh{
+
+.grid-text-bangladesh {
     position: absolute;
-    margin-top:-160px;
+    margin-top: -160px;
     color: #fff;
-    margin-left:160px;
+    margin-left: 160px;
 }
-.grid-text-bandarban{
+
+.grid-text-bandarban {
     position: absolute;
-    margin-top:-160px;
+    margin-top: -160px;
     color: #fff;
-    margin-left:260px;
-    
+    margin-left: 260px;
+
 
 }
 
@@ -375,11 +387,45 @@ li {
 
 /* FOOTER SECTION */
 .footer {
-    max-width:1440px;
     margin: 100px auto 0;
     background: rgba(19, 19, 24, 0.05);
-    height: 100vh;
+    height:500px;
+    
+}
+
+.footer-container {
+    padding-top: 110px;
     text-align: center;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo .footer-text {
+    margin-left: 15px;
+}
+
+.icon-text .section-description {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social hr {
+    width: 60%;
+    text-align: center;
+    margin: 50px auto;
+}
+.copyright{
+    margin:100px;
+}
+
+.copyright-text {
+    color: #131318;
+    font-weight: 300;
+
 }
 
 
@@ -388,11 +434,14 @@ li {
 @media screen and (max-width:600px) {
     nav {
         flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .banner {
         padding: 20px;
-
     }
 
     .banner-content {
