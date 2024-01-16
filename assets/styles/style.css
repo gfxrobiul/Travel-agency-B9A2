@@ -178,7 +178,6 @@ li {
 .our-desti {
     max-width: 1160px;
     margin: 100px auto 0;
-    border: 1px solid red;
 }
 
 .our-desti-container {
@@ -432,19 +431,31 @@ li {
 /* RESPONSIVE FOR SMALL DEVICE OR PHONE DEVICES */
 @media screen and (max-width:600px) {
     nav ,
-    .popular-tour-container 
+    .popular-tour-container ,
+    .top-photo ,
+    .center-photo ,
+    .bottom-photo
 
     {
         flex-direction: column;
     }
-    .popular-tour-container {
+    .popular-tour-container
+
+     {
         text-align: center;
-        padding:20px;
+        padding: 20px;
     }
     .popular-tour-left ,
     .popular-tour-right
     {
         width:100%;
+    }
+    .our-desti{
+        padding:20px;
+    }
+    .our-destination-photo img{
+        width:100%;    
+        
     }
 
     .banner {
