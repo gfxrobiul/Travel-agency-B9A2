@@ -129,8 +129,8 @@ button {
 /* OUR POPILAR TOUR SECTION START */
 .popular-tour {
     max-width: 1160px;
-    height: 100vh;
     margin: 0 auto;
+
 
 }
 
@@ -138,6 +138,7 @@ button {
     display: flex;
     gap: 3rem;
     margin-top: 100px;
+
 }
 
 .popular-tour-left {
@@ -160,17 +161,18 @@ li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     line-height: 26px;
+    margin-bottom: 1.25rem;
 }
 
-img {
+.popular-tour img {
     width: 100%;
+    height: 620px;
 }
 
 /* WHY CHOOSE US SECTION START */
 .choose-us-section {
     max-width: 1160px;
     margin: 100px auto 0;
-    border: 2px solid red;
 
 }
 
@@ -224,6 +226,33 @@ img {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+}
+
+/* SIMPLE PERFECT PLACE SECTION START  */
+.perfect-place {
+    max-width: 1160px;
+    margin: 100px auto 0;
+    border: 1px solid red;
+}
+
+.perfect-place-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.50rem;
+}
+
+.pp-left .section-list {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+   
+}
+
+.pp-video iframe {
+    margin-top: 1rem;
+    border-radius: 1rem;
 }
 
 
