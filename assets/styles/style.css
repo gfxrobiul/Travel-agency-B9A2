@@ -75,7 +75,7 @@ nav ul li a {
     height: 500px;
     border-radius: 1rem;
     margin-top: 50px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/assets/images/Group\ 13\ \(1\)\ \(1\).png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Group\ 13\ \(1\)\ \(1\).png');
 }
 
 .banner-content {
@@ -438,7 +438,8 @@ li {
     .popular-tour-container ,
     .top-photo ,
     .center-photo ,
-    .bottom-photo
+    .bottom-photo ,
+    .choose-services
 
     {
         flex-direction: column;
@@ -508,6 +509,22 @@ li {
         margin-left: 220px;
     }
 
+   .choose-us-top{
+        margin:2rem;
+   }
+    .choose-1 ,
+    .choose-2
+     {
+        padding: 24px;
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        margin: 0 auto;
+    }
+
+    .choose-2{
+        margin-bottom:1.25rem;
+    }
 
 
     
