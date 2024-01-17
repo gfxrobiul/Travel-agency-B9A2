@@ -65,6 +65,10 @@ nav ul li {
     cursor: pointer;
 }
 
+.color {
+    color: #FF5400;
+}
+
 nav ul li a {
     text-decoration: none;
     color: #424247;
@@ -100,15 +104,18 @@ nav ul li a {
     margin-bottom: 4rem;
 }
 
-.form {
+.form-content {
     width: 70%;
+    display: flex;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     text-align: center;
     margin: 0 auto;
 }
 
-input {
+
+input,
+select {
     width: 175px;
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
@@ -117,9 +124,15 @@ input {
     outline: none;
     border: none;
     margin: 10px;
+    cursor: pointer;
 }
 
-button {
+.find-now-button,
+.primary-btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
     width: 175px;
     color: #FFF;
     background: #FF5400;
@@ -352,7 +365,7 @@ li {
 /* NEWS LETTER SECTION START */
 .news-letter {
     max-width: 1160px;
-    margin: 100px auto 0;
+    margin: 100px auto 100px;
 }
 
 .news-letter-container {
@@ -412,7 +425,50 @@ li {
 
 }
 
+/* CLIENTS TESTIMONIALS SECTION */
 
+.testimonials {
+    width: 1160px;
+    margin: 100px auto 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    text-align: center;
+
+}
+
+.tesi-container {
+    display: flex;
+    margin: 50px auto 0;
+    gap: 20px;
+}
+
+.testi-items {
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    padding:20px;
+    margin:20px;
+
+
+}
+
+.testimonials .section-title {
+    width:1160px;
+}
+
+.testi-items img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #FF5400;
+    margin-top: 20px;
+}
+.testi-items .section-description{
+    font-size:14px;
+    margin:20px auto;
+
+}
 
 
 
@@ -444,6 +500,12 @@ li {
     margin-bottom: 2rem;
 }
 
+.footer-logo img,
+.footer-text,
+.social img {
+    cursor: pointer;
+}
+
 .social hr {
     width: 60%;
     text-align: center;
@@ -462,7 +524,7 @@ li {
 
 
 /* RESPONSIV MEDIA QUERY */
-/* RESPONSIVE FOR SMALL DEVICE OR PHONE DEVICES */
+
 @media screen and (max-width:600px) {
 
     .popular-tour-container,
@@ -471,7 +533,11 @@ li {
     .bottom-photo,
     .choose-services,
     .perfect-place-container,
-    .news-letter-container {
+    .news-letter-container,
+    .form-content , 
+    .tesi-container
+     {
+
         flex-direction: column;
     }
 
@@ -490,6 +556,21 @@ li {
     .perfect-place {
         padding: 20px;
     }
+    .testimonials{
+        width:10%;
+       
+    }
+    .tesi-container {
+        gap:5px;
+    }
+    .testi-items{
+        width:550px;
+       
+    }
+    .testi-items .section-description{
+        width:80%;
+    }
+
 
     .section-title {
         font-size: 32px;
@@ -631,8 +712,20 @@ li {
         margin: 0 auto 32px;
     }
 
-    .form {
-        width: 287px;
+    .form-content {
+        margin-top: -30px;
+    }
+
+
+    .form input {
+        width: 175px;
+        margin: 30px auto 10;
+
+    }
+
+    .find-now-button {
+        text-align: center;
+        margin: 10px auto 20px;
     }
 
     .banner-title {
